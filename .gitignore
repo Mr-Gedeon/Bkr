@@ -1,0 +1,2 @@
+# remove the rust target folder (unecessary cache)
+target/

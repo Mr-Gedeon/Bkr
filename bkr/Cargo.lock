@@ -3,5 +3,19 @@
 version = 4
 
 [[package]]
-name = "bkr"
+name = "bkr-client"
 version = "0.1.0"
+dependencies = [
+ "bkr-core",
+]
+
+[[package]]
+name = "bkr-core"
+version = "0.1.0"
+
+[[package]]
+name = "bkr-server"
+version = "0.1.0"
+dependencies = [
+ "bkr-core",
+]
